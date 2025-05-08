@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: "Madimi One", sans-serif;
+    color: hsl(46, 99%, 68%);
+    background-color: #ed391e ;
+    
+}
+.BarrNav{
+    display: flex;
+    justify-content: space-between;
+    background-color: #c73019;
+    width: 100%;
+    position: fixed;
+    height: 10vh;
+    
+  
+}
+
+ul {
+    padding: 10px 20px;
+    list-style: none;
+    display: flex;
+}
+ul li{
+    margin-left: 10vh;
+    
+}
+
+
+ul li a{
+    
+    font-family: "Madimi One", sans-serif;
+    font-size: 5vh;
+    text-decoration: none;
+    color: #FED85D;
+}
+
+.Logo img {
+    height: 10vh;
+    margin-left: 4vh;
+}
+
+#Menlis{
+    padding: 0vh 10vw 0.5vh 10vw;
+    display: flex;
+
+}
+.Prod{
+    margin: 5vh;
+    padding: 2vh;
+    text-align: center;
+    /*border: 5px solid #c73019;
+    border-radius: 10px;*/
+    width: 20vw;
+   /* background-color:#b39393;*/
+}
+
+.Prod p{
+    text-align: left;
+}
+.Prod ul{
+    display: block;
+    text-decoration: none;
+    text-align: left;
+    padding: 0%;
+    margin: 0%;
+
+}
+
+.Prod img{
+    width: 15vw;
+    
+}
+
+.Enc{
+    color:#ffc400;
+    text-align: center;
+    font-size: 30px;
+}
+
+.Enc2{
+    color: #bea245;
+    text-align: left;
+    font-size: 20px;
+}
+
+.Prod p{
+    font-size: 20px;
+}
+
+#Menlis2{
+    padding: 0.5vh 10vw;
+    display: flex;
+}
+
+.DivisorPa{
+    padding: 70px 10px 0px 10px;
+    text-align: center;
+    font-size: 25px;
+    color: white;
+}
+
+.DivisorPa2{
+    padding: 5px 10px 0px 10px;
+    text-align: center;
+    font-size: 25px;
+    color: white;
+}
+
+footer{
+    background-color: rgb(82, 80, 80);
+    display: flex;
+    text-align: center;
+    padding: 1vh 25vw 1vh 25vw;
+    align-items: center;
+}
+footer div{
+   margin: 1vh 2vw 1vh 2vw;
+}
+
+.Copyr{
+    background-color: rgb(82, 80, 80);
+    text-align: center;
+}
